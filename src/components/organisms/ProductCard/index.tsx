@@ -104,6 +104,7 @@ const ProductCard = ({
         {blurDataUrl && (
           <ScaleImage
             src={imageUrl}
+            alt={'Image'}
             width={imgSize ?? 240}
             height={imgSize ?? 240}
             containerWidth={size}
@@ -116,6 +117,7 @@ const ProductCard = ({
         {!blurDataUrl && (
           <ScaleImage
             src={imageUrl}
+            alt={'Image'}
             width={imgSize ?? 240}
             height={imgSize ?? 240}
             containerWidth={size}

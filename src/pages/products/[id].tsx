@@ -18,8 +18,8 @@ import type {
   import Layout from 'components/templates/Layout'
   import AddToCartButtonContainer from 'containers/AddToCartButtonContainer'
   import getAllProducts from 'services/products/get-all-products'
-  import getProduct from 'services/products/get-product'
-  import useProduct from 'services/products/use-product'
+  import getProduct from 'services/products/get-products'
+  import useProduct from 'services/products/use-products'
   import type { ApiContext, Category } from 'types'
   
   const categoryNameDict: Record<Category, string> = {

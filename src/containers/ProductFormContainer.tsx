@@ -1,7 +1,7 @@
 import ProductForm, { ProductFormData } from 'components/organisms/ProductForm'
 import { useAuthContext } from 'contexts/AuthContext'
 import { useGlobalSpinnerActionsContext } from 'contexts/GlobalSpinnerContext'
-import addProduct from 'services/products/add-product'
+import addProduct from 'services/products/add-products'
 import { ApiContext, Product } from 'types'
 
 const context: ApiContext = {

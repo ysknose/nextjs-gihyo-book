@@ -121,6 +121,7 @@ const Header = () => {
                     <Anchor as="a">
                       <ShapeImage
                         shape="circle"
+                        alt={'Image'}
                         src={authUser.profileImageUrl}
                         width={24}
                         height={24}
